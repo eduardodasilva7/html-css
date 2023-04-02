@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table{
+      width: 500px;
+      border-collapse: collapse;
+      position: relative;
+    }
+
+    td, th{
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    tr.painel{
+      background-color: gray;
+      color: white;
+    }
+
+    td{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr class="painel">
+      <th rowspan="2" >Area</th>
+      <th rowspan="2">Disciplinas</th>
+      <th colspan="2">Notas</th>
+      <th rowspan="2">Média</th>
+    </tr>
+    <tr class="painel">
+      <th>Nota 1</th>
+      <th>Nota 2</th>
+    </tr>
+    <tr>
+      <th rowspan="4">Exatas</th>
+      <th>Matemática</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr>
+      <th>Fisica</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr>
+      <th>Quimica</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr>
+      <th>Biologia</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr class="painel">
+      <th colspan="4">Media de Exatas</th>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Humanas</th>
+      <th>Historia</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr>
+      <th>Geografia</th>
+      <td>0.0</th>
+      <td>0.0</th>
+      <td>0.0</th>
+    </tr>
+    <tr class="painel">
+      <th colspan="4">Media de Humanas</th>
+      <td>0.0</td>
+    </tr>
+  </table>
+</body>
+</html>
